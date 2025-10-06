@@ -18,7 +18,28 @@ export default function Footer() {
           
           <div className="text-center md:text-right">
             <p className="text-sm">© 2025 Advokátní kancelář Lenka Ježková</p>
-            <p className="text-xs mt-1">Provozovatel AlgoInsight Technology</p>
+            <p className="text-xs mt-1">
+  Provozovatel <span className="animated-heart">❤️</span> AlgoInsight Technology
+</p>
+
+<style jsx>{`
+  .animated-heart {
+    display: inline-block;
+    animation: heartbeat 1.5s infinite;
+    margin: 0 5px;
+  }
+
+  @keyframes heartbeat {
+    0%, 20%, 40%, 60%, 80%, 100% {
+      transform: scale(1);
+    }
+    10%, 30%, 50%, 70%, 90% {
+      transform: scale(1.3);
+    }
+  }
+`}</style>
+
+            
           </div>
         </div>
       </div>
