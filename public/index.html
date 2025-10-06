@@ -1,3 +1,33 @@
+# 🎯 SEO Strategie - Advokátka Lenka Ježková Chlumec nad Cidlinou
+
+## 📊 Cílová klíčová slova (Keywords):
+
+### Primární keywords (vysoká priorita):
+1. **advokát chlumec nad cidlinou** (hlavní keyword)
+2. **advokátka lenka ježková**
+3. **advokát chlumec**
+4. **advokátní kancelář chlumec nad cidlinou**
+5. **právní služby chlumec nad cidlinou**
+
+### Sekundární keywords:
+6. advokát rodinné právo chlumec
+7. advokát pracovní právo chlumec
+8. právní poradna chlumec nad cidlinou
+9. rozvodový advokát chlumec
+10. advokát dědictví chlumec
+
+### Long-tail keywords (specifické dotazy):
+11. jak najít advokáta v chlumci nad cidlinou
+12. dobrý advokát chlumec recenze
+13. kolik stojí advokát chlumec
+
+---
+
+## ⚡ FÁZE 1: Technické SEO (Okamžité akce)
+
+### 1.1 Meta tagy - Upravit `public/index.html`
+
+```html
 <!DOCTYPE html>
 <html lang="cs">
   <head>
@@ -5,17 +35,79 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#0f172a" />
-    <meta
-      name="description"
-      content="Advokátní kancelář Mgr. et Bc. Lenky Ježkové - Profesionální právní služby v Chlumci nad Cidlinou. Rodinné právo, pracovní právo, občanské právo a další."
-    />
-    <meta name="keywords" content="advokát, právní služby, Chlumec nad Cidlinou, rodinné právo, pracovní právo" />
+    
+    <!-- SEO Meta Tags -->
+    <title>Advokát Chlumec nad Cidlinou | Mgr. et Bc. Lenka Ježková | Advokátní kancelář</title>
+    <meta name="description" content="Advokátka Lenka Ježková v Chlumci nad Cidlinou. Profesionální právní služby - rodinné právo, pracovní právo, občanské právo. Volejte: +420 721 207 779" />
+    <meta name="keywords" content="advokát chlumec nad cidlinou, advokátka lenka ježková, advokát chlumec, právní služby chlumec, rodinné právo, pracovní právo, advokátní kancelář" />
+    <meta name="author" content="Mgr. et Bc. Lenka Ježková" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://www.advokatchlumec.cz/" />
+    
+    <!-- Open Graph (Facebook, LinkedIn) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Advokát Chlumec nad Cidlinou | Lenka Ježková" />
+    <meta property="og:description" content="Advokátka Lenka Ježková v Chlumci nad Cidlinou. Profesionální právní služby - rodinné právo, pracovní právo, občanské právo." />
+    <meta property="og:url" content="https://www.advokatchlumec.cz/" />
+    <meta property="og:image" content="https://www.advokatchlumec.cz/og-image.jpg" />
+    <meta property="og:locale" content="cs_CZ" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Advokát Chlumec nad Cidlinou | Lenka Ježková" />
+    <meta name="twitter:description" content="Advokátka Lenka Ježková - Profesionální právní služby v Chlumci nad Cidlinou" />
+    <meta name="twitter:image" content="https://www.advokatchlumec.cz/og-image.jpg" />
+    
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Advokátní kancelář Mgr. et Bc. Lenka Ježková",
+      "image": "https://www.advokatchlumec.cz/logo.png",
+      "description": "Advokátní kancelář v Chlumci nad Cidlinou specializující se na rodinné právo, pracovní právo, občanské právo a trestní právo.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Vrchlického 530",
+        "addressLocality": "Chlumec nad Cidlinou",
+        "addressRegion": "Královéhradecký kraj",
+        "postalCode": "503 51",
+        "addressCountry": "CZ"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 50.1537,
+        "longitude": 15.4596
+      },
+      "telephone": "+420721207779",
+      "email": "ak.jezkova@gmail.com",
+      "url": "https://www.advokatchlumec.cz",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "08:00",
+          "closes": "18:00"
+        }
+      ],
+      "priceRange": "$$",
+      "areaServed": {
+        "@type": "City",
+        "name": "Chlumec nad Cidlinou"
+      },
+      "founder": {
+        "@type": "Person",
+        "name": "Mgr. et Bc. Lenka Ježková",
+        "jobTitle": "Advokátka"
+      }
+    }
+    </script>
+    
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <title>Advokátní kancelář - Mgr. et Bc. Lenka Ježková</title>
   </head>
   <body>
-    <noscript>Pro správné zobrazení této stránky musíte povolit JavaScript.</noscript>
+    <noscript>Advokát Chlumec nad Cidlinou - Mgr. et Bc. Lenka Ježková. Pro správné zobrazení této stránky musíte povolit JavaScript.</noscript>
     <div id="root"></div>
   </body>
 </html>
