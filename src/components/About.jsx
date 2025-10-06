@@ -21,7 +21,7 @@ export default function About() {
               <div className="flex items-center space-x-3">
                 <Shield className="w-10 h-10 text-rose-600" />
                 <div>
-                  <div className="font-bold text-2xl">20+</div>
+                  <div className="font-bold text-2xl">30+</div>
                   <div className="text-sm text-gray-600">Let praxe</div>
                 </div>
               </div>
