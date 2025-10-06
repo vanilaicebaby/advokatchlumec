@@ -16,8 +16,8 @@ export default function Stats() {
         const progress = step / steps;
         setCounters({
           experience: Math.floor(30 * progress),
-          clients: Math.floor(500 * progress),
-          cases: Math.floor(1000 * progress)
+          clients: Math.floor(1000 * progress),
+          cases: Math.floor(5000 * progress)
         });
         
         if (step >= steps) clearInterval(timer);
