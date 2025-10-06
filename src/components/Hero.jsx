@@ -14,9 +14,9 @@ export default function Hero() {
       
       <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
         <div className="mb-8 inline-block">
-          <div className="flex items-center justify-center space-x-2 bg-white/10 backdrop-blur-md px-6 py-3 rounded-full border border-white/20">
-            <Scale className="w-5 h-5 text-rose-400" />
-            <span className="text-white font-medium">Profesionální právní služby</span>
+          <div className="flex items-center justify-center space-x-2 bg-white/10 backdrop-blur-md px-4 sm:px-6 py-2.5 sm:py-3 rounded-full border border-white/20">
+            <Scale className="w-4 h-4 sm:w-5 sm:h-5 text-rose-400 flex-shrink-0" />
+            <span className="text-white font-medium text-sm sm:text-base whitespace-nowrap">Profesionální právní služby</span>
           </div>
         </div>
         
