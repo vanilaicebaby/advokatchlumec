@@ -29,6 +29,21 @@ export default function Services() {
       description: 'Obhajoba v trestním řízení, zastupování poškozených osob'
     },
     {
+      icon: '💳',
+      title: 'Insolvenční právo',
+      description: 'Oddlužení, konkurzy, insolvenční řízení, ochrana před věřiteli'
+    },
+    {
+      icon: '💰',
+      title: 'Vymáhání pohledávek',
+      description: 'Soudní i mimosoudní vymáhání, exekuce, platební rozkazy'
+    },
+    {
+      icon: '🏠',
+      title: 'Podílové spoluvlastnictví a SJM',
+      description: 'Vypořádání spoluvlastnictví, společné jmění manželů, předkupní práva'
+    },
+    {
       icon: '📋',
       title: 'Právní poradenství',
       description: 'Komplexní konzultace, preventivní poradenství, právní audit'
