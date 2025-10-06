@@ -21,9 +21,13 @@ export default function Hero() {
         </div>
         
         <h1 className="text-5xl sm:text-6xl md:text-8xl font-bold text-white mb-4 sm:mb-6 leading-tight">
+          <span className="bg-gradient-to-r from-amber-400 via-yellow-500 to-amber-400 bg-clip-text text-transparent">
+            Advokátní kancelář
+          </span>
+          <br />
           Mgr. et Bc.
           <br />
-          <span className="bg-gradient-to-r from-amber-400 via-yellow-500 to-amber-400 bg-clip-text text-transparent">
+          <span className="text-white">
             Lenka Ježková
           </span>
         </h1>

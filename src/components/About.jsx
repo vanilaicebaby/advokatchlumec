@@ -35,10 +35,11 @@ export default function About() {
               </span>
             </div>
             
-            <h2 className="text-5xl md:text-6xl font-bold mb-6 leading-tight text-white">
+            <h2 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
               Mgr. et Bc.
               <br />
-              Lenka Ježková
+               Lenka Ježková
+
             </h2>
             
             <div className="space-y-4 text-lg text-gray-300 leading-relaxed mb-8">
