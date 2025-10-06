@@ -40,7 +40,7 @@ export default function Services() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <div className="inline-block mb-4">
-            <span className="px-4 py-2 bg-gradient-to-r from-rose-100 to-orange-100 text-rose-700 rounded-full text-sm font-semibold">
+            <span className="px-4 py-2 bg-gradient-to-r from-amber-100 to-yellow-100 text-amber-700 rounded-full text-sm font-semibold">
               Oblast působení
             </span>
           </div>
@@ -58,19 +58,19 @@ export default function Services() {
               key={idx}
               className="group relative bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-gray-100 overflow-hidden"
             >
-              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-rose-100 to-orange-100 rounded-full -mr-16 -mt-16 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-amber-100 to-yellow-100 rounded-full -mr-16 -mt-16 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               
               <div className="relative z-10">
                 <div className="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300">
                   {service.icon}
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-rose-700 transition-colors">
+                <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-amber-700 transition-colors">
                   {service.title}
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
                   {service.description}
                 </p>
-                <div className="mt-6 flex items-center text-rose-600 font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="mt-6 flex items-center text-amber-600 font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <span>Zjistit více</span>
                   <ChevronDown className="w-5 h-5 ml-2 rotate-[-90deg]" />
                 </div>

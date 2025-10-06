@@ -40,21 +40,21 @@ export default function Stats() {
   }, []);
 
   return (
-    <section id="stats-section" className="py-16 bg-gradient-to-r from-slate-900 via-blue-900 to-slate-900 border-y border-white/10">
+    <section id="stats-section" className="py-16 bg-gradient-to-r from-slate-900 via-amber-900 to-slate-900 border-y border-white/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-3 gap-8 text-center">
           <div className="p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300">
-            <Award className="w-12 h-12 text-rose-400 mx-auto mb-4" />
+            <Award className="w-12 h-12 text-amber-400 mx-auto mb-4" />
             <div className="text-5xl font-bold text-white mb-2">{counters.experience}+</div>
             <div className="text-gray-300 font-medium">Let praxe</div>
           </div>
           <div className="p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300">
-            <Users className="w-12 h-12 text-orange-400 mx-auto mb-4" />
+            <Users className="w-12 h-12 text-yellow-500 mx-auto mb-4" />
             <div className="text-5xl font-bold text-white mb-2">{counters.clients}+</div>
             <div className="text-gray-300 font-medium">Spokojených klientů</div>
           </div>
           <div className="p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300">
-            <Briefcase className="w-12 h-12 text-blue-400 mx-auto mb-4" />
+            <Briefcase className="w-12 h-12 text-amber-500 mx-auto mb-4" />
             <div className="text-5xl font-bold text-white mb-2">{counters.cases}+</div>
             <div className="text-gray-300 font-medium">Vyřešených případů</div>
           </div>
