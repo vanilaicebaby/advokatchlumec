@@ -15,7 +15,7 @@ export default function Stats() {
         step++;
         const progress = step / steps;
         setCounters({
-          experience: Math.floor(10 * progress),
+          experience: Math.floor(30 * progress),
           clients: Math.floor(500 * progress),
           cases: Math.floor(1000 * progress)
         });

@@ -79,7 +79,7 @@ export default function Contact() {
                   <h3 className="text-xl font-bold text-gray-900 mb-2">Provozní hodiny</h3>
                   <p className="text-gray-700 text-lg">
                     <strong>Pondělí - Neděle</strong><br />
-                    8:00 - 18:00
+                    8:00 - 20:00
                   </p>
                 </div>
               </div>
