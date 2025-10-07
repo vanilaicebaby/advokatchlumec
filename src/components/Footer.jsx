@@ -22,7 +22,9 @@ export default function Footer() {
               <span className="hidden sm:inline">•</span>
               <span>Ev. č. ČAK: 12271</span>
               <span className="hidden sm:inline">•</span>
-              <span>ID DS: [doplnit]</span>
+              <span>ID DS: </span>
+              <span>Registrována v seznamu obhájců exoffo</span>
+
             </div>
             <p className="text-sm">© 2025 Advokátní kancelář Lenka Ježková</p>
             <p className="text-xs">
