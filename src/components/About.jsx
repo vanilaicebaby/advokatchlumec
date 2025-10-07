@@ -11,7 +11,7 @@ export default function About() {
             <div className="absolute inset-0 bg-gradient-to-br from-amber-600 to-yellow-700 rounded-3xl transform rotate-3"></div>
             <div className="relative bg-white rounded-3xl overflow-hidden shadow-2xl transform -rotate-1 hover:rotate-0 transition-transform duration-500">
               <img 
-                src="https://eduys.cz/inc/peoples_png/lenka.png"
+                src="/image.png"
                 alt="Mgr. et Bc. Lenka Ježková"
                 className="w-full h-auto object-cover"
               />
