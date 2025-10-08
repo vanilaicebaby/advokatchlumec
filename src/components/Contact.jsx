@@ -11,11 +11,11 @@ export default function Contact() {
               Spojte se se mnou
             </span>
           </div>
-          <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4">
-            Kontakt
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            Kontakt - Advokát Chlumec nad Cidlinou
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Jsem tu pro vás. Neváhejte mě kontaktovat pro konzultaci nebo schůzku
+            Potřebujete právní pomoc? Kontaktujte advokátní kancelář v Chlumci nad Cidlinou
           </p>
         </div>
 

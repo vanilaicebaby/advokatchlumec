@@ -12,7 +12,7 @@ export default function About() {
             <div className="relative bg-white rounded-3xl overflow-hidden shadow-2xl transform -rotate-1 hover:rotate-0 transition-transform duration-500">
               <img 
                 src="/image.png"
-                alt="Mgr. et Bc. Lenka Ježková"
+                alt="Advokát Chlumec nad Cidlinou - Mgr. et Bc. Lenka Ježková, advokátní kancelář"
                 className="w-full h-auto object-cover"
               />
             </div>
@@ -35,26 +35,27 @@ export default function About() {
               </span>
             </div>
             
-            <h2 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-              Mgr. et Bc.
+            <h3 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+              Mgr. et Bc. Lenka Ježková
               <br />
-               Lenka Ježková
-
-            </h2>
+              <span className="text-3xl md:text-4xl">
+                Advokát Chlumec nad Cidlinou
+              </span>
+            </h3>
             
             <div className="space-y-4 text-lg text-gray-300 leading-relaxed mb-8">
               <p>
-                Vítejte v mé advokátní kanceláři. Poskytuji komplexní právní služby 
-                s důrazem na <strong className="text-white">individuální přístup</strong> ke každému klientovi.
+                Hledáte <strong className="text-white">advokáta v Chlumci nad Cidlinou</strong>? 
+                Poskytuji komplexní právní služby s důrazem na <strong className="text-white">individuální přístup</strong> ke každému klientovi.
               </p>
               <p>
-                Mým cílem je poskytovat profesionální právní pomoc s respektem k vašim 
-                potřebám a s maximálním úsilím o dosažení nejlepšího možného výsledku.
+                Jako <strong className="text-white">advokát Chlumec nad Cidlinou</strong> působím více než 30 let 
+                v oblastech rodinného, trestního, pracovního a občanského práva. Mým cílem je poskytovat 
+                profesionální právní pomoc s maximálním úsilím o dosažení nejlepšího výsledku.
               </p>
               <p>
                 Věřím v <strong className="text-white">otevřenou komunikaci</strong>, transparentnost 
-                a osobní přístup. Jsem tu proto, abych vám pomohla orientovat se v právních 
-                záležitostech a efektivně hájit vaše práva a zájmy.
+                a osobní přístup. Advokátní kancelář v Chlumci nad Cidlinou k dispozici 7 dní v týdnu.
               </p>
             </div>
 

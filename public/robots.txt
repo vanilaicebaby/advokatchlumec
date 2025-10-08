@@ -1,12 +1,8 @@
 User-agent: *
 Allow: /
 
+# Sitemap
 Sitemap: https://www.advokatchlumec.cz/sitemap.xml
 
-# Optimalizace pro Google Bot
-User-agent: Googlebot
-Allow: /
-
-# Blokovat pouze admin/test stránky (pokud existují)
-Disallow: /admin/
-Disallow: /test/
+# Crawl-delay (optional)
+Crawl-delay: 1

@@ -20,21 +20,23 @@ export default function Hero() {
           </div>
         </div>
         
-        <h1 className="text-5xl sm:text-6xl md:text-8xl font-bold text-white mb-4 sm:mb-6 leading-tight">
+        <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-white mb-4 sm:mb-6 leading-tight">
           <span className="bg-gradient-to-r from-amber-400 via-yellow-500 to-amber-400 bg-clip-text text-transparent">
-            Advokátní kancelář
+            Advokát Chlumec nad Cidlinou
           </span>
           <br />
-          Mgr. et Bc.
+          <span className="text-white text-3xl sm:text-4xl md:text-5xl">
+            Mgr. et Bc. Lenka Ježková
+          </span>
           <br />
-          <span className="text-white">
-            Lenka Ježková
+          <span className="text-white text-2xl sm:text-3xl md:text-4xl font-normal">
+            Advokátní kancelář
           </span>
         </h1>
         
         <p className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-8 sm:mb-12 max-w-3xl mx-auto leading-relaxed">
-          S respektem k vašim právům a individuálním přístupem ke každému klientovi. 
-          Poskytujeme komplexní právní služby v Chlumci nad Cidlinou.
+          Profesionální advokátní služby Chlumec nad Cidlinou a okolí. 
+          Rodinné právo, trestní právo, pracovní právo. Více než 30 let zkušeností.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
